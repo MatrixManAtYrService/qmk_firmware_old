@@ -127,6 +127,12 @@ extern const uint16_t fn_actions[];
 
 #define KC_DELT KC_DELETE // Del key (four letter code)
 
+#define KC_LSTH LSFT(KC_COMM)   // <
+#define KC_LESS_THAN KC_LSTH
+
+#define KC_GRTH LSFT(KC_DOT)    // >
+#define KC_GREATER_THAN KC_GRTH
+
 // Alias for function layers than expand past FN31
 #define FUNC(kc) kc | 0x2000
 

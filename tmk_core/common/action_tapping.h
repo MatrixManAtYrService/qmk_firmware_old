@@ -21,12 +21,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* period of tapping(ms) */
 #ifndef TAPPING_TERM
-#define TAPPING_TERM    200
+#define TAPPING_TERM    250
 #endif
 
 /* tap count needed for toggling a feature */
 #ifndef TAPPING_TOGGLE
-#define TAPPING_TOGGLE  5
+#define TAPPING_TOGGLE  2
 #endif
 
 #define WAITING_BUFFER_SIZE 8
