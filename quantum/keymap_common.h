@@ -134,6 +134,12 @@ extern const uint16_t fn_actions[];
 #define KC_GRTH LSFT(KC_DOT)    // >
 #define KC_GREATER_THAN KC_GRTH
 
+#define KC_DQOT LSFT(KC_QUOT) // "
+#define KC_DOUBLE_QUOTE KC_DQOT
+
+#define KC_QSTN LSFT(KC_SLSH) // ?
+#define KC_QUESTION_MARK KC_QSTN
+
 // Alias for function layers than expand past FN31
 #define FUNC(kc) kc | 0x2000
 

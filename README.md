@@ -72,6 +72,10 @@ The following shortcuts automatically add `LSFT()` to keycodes to get commonly u
     KC_RCBR  }
     KC_PIPE  |
     KC_COLN  :
+    KC_LSTH  <
+    KC_GRTH  >
+    KC_DQOT  "
+    KC_QSTN  ?
 
 `MT(mod, kc)` - is *mod* (modifier key - MOD_LCTL, MOD_LSFT) when held, and *kc* when tapped. In other words, you can have a key that sends Esc (or the letter O or whatever) when you tap it, but works as a Control key or a Shift key when you hold it down.
 
